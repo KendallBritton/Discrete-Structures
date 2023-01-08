@@ -1,0 +1,12 @@
+Project 2: Counting Rectangles [REC]
+Textbook Sections: 2.8 and 3.17
+
+Set Up:  For example, a  rectangular grid contains exactly eighteen different rectangles of the forms:
+
+	*Picture: p_085.gif is available in folder*
+
+Directions: Compute the number of different rectangles an n x m rectangular grid contains, for n > 0 and m > 0.  Allow the user to choose both n and m.
+
+Input: 2 integers n and m, the size of the grid (ie: n = 5 and m = 3 where the grid is 5 x 3)
+
+Output: integer r, the total number of distinct rectangles contained in the grid

@@ -1,0 +1,19 @@
+Project 3: Integer Partitions [INT]
+
+Set Up: Let p(n) represent the number of different ways in which n coins can be separated into piles. For example, five coins can be separated into piles in exactly seven different ways, so p(5) = 7.
+
+OOOOO                         ( 5 = 5 )
+OOOO   O                      ( 5 = 4+1 )
+OOO   OO                      ( 5 = 3+2 )
+OOO   O   O                   ( 5 = 3+1+1 )
+OO   OO   O                   ( 5 = 2+2+1 )
+OO   O   O   O                ( 5 = 2+1+1+1 )
+O   O   O   O   O             ( 5 = 1+1+1+1+1 )
+
+Directions: Compute p(n) for 1 <= n <= 10.  Allow the user to choose integer n.  (Hint: Stirling numbers)
+
+Input: integer n, the number of coins (ie: n = 5)
+
+Output: integer p(n), the number of ways that the coins can be separated into piles (ie:  p(5) = 7)
+
+Warning: Don't use the asymptotic expression; instead, there exist recurrence relations.
